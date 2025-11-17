@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  nginx-helm:
+  - apiVersion: v2
+    appVersion: 1.23.1
+    created: "2025-11-17T12:39:49.410244703+01:00"
+    description: A simple Helm chart for NGINX
+    digest: 0cb6df2f779e82da5aa80fa32fb37b82d9dbd85307b31b4c624a4c1956fbe4f2
+    name: nginx-helm
+    urls:
+    - https://zreigz.github.io/helm-charts/nginx-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-11-17T12:39:49.410022664+01:00"
