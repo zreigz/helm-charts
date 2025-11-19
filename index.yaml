@@ -3,11 +3,20 @@ entries:
   nginx-helm:
   - apiVersion: v2
     appVersion: 1.23.1
-    created: "2025-11-17T12:39:49.410244703+01:00"
+    created: "2025-11-19T13:56:29.307832348+01:00"
+    description: A simple Helm chart for NGINX
+    digest: 9973de0ec5bb2d14d3be57fde9b3ce53f5901fcc7928f366e42e00e4dcb3dba3
+    name: nginx-helm
+    urls:
+    - https://raw.githubusercontent.com/zreigz/helm-charts/main/nginx-helm-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.23.1
+    created: "2025-11-19T13:56:29.307705528+01:00"
     description: A simple Helm chart for NGINX
     digest: 0cb6df2f779e82da5aa80fa32fb37b82d9dbd85307b31b4c624a4c1956fbe4f2
     name: nginx-helm
     urls:
-    - https://zreigz.github.io/helm-charts/nginx-helm-0.1.0.tgz
+    - https://raw.githubusercontent.com/zreigz/helm-charts/main/nginx-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-17T12:39:49.410022664+01:00"
+generated: "2025-11-19T13:56:29.307366066+01:00"
