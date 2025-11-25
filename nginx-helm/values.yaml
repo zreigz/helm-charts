@@ -12,3 +12,5 @@ service:
 secret:
   username: admin
   password: changeme
+
+enableConfigMap: false
