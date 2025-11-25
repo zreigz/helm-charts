@@ -1,6 +1,7 @@
 {{- if .Values.enableConfigMap }}
 apiVersion: v1
 kind: ConfigMap
+{{- end }}
 metadata:
   name: nginx-html
 data:
@@ -13,4 +14,3 @@ data:
     <p>Password: {{ .Values.secret.password }}</p>
     </body>
     </html>
-{{- end }}
